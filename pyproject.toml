@@ -1,0 +1,40 @@
+[tool.briefcase]
+project_name = "FishBattle"
+bundle = "com.antigravity"
+version = "1.0.0"
+url = "https://github.com/antigravity/fishbattle"
+author = "DeepMind Agent"
+author_email = "agent@deepmind.com"
+
+[tool.briefcase.app.fishbattle]
+formal_name = "FishBattle"
+description = "A casual arcade fishing game based on Pygame"
+license = "MIT"
+sources = ["src/fishbattle"]
+requires = [
+    "pygame>=2.6.1"
+]
+
+[tool.briefcase.app.fishbattle.macOS]
+requires = [
+    "std-stdlib"
+]
+
+[tool.briefcase.app.fishbattle.linux]
+requires = [
+    "std-stdlib"
+]
+
+[tool.briefcase.app.fishbattle.windows]
+requires = []
+
+[tool.briefcase.app.fishbattle.android]
+requires = [
+    "pygame>=2.6.1"
+]
+permission."android.permission.INTERNET" = true
+
+[tool.briefcase.app.fishbattle.iOS]
+requires = [
+    "std-stdlib"
+]

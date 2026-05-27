@@ -1,0 +1,23 @@
+# Build directories
+build/
+bin/
+.buildozer/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pygame / project specific save data
+save_data.json
+logs/
+
+# Excel temp files
+~$*.xlsm
+
+# Environment / IDE files
+.antigravitycli/
+.venv/
+venv/
+.idea/
+.vscode/
