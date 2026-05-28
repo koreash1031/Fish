@@ -38,26 +38,17 @@ jobs:
             python3-dev \
             python3-pip \
             python3-setuptools \
+            python3-virtualenv \
             unzip \
             zip \
             zlib1g-dev \
             autoconf \
-            libncurses5-dev \
-            libncursesw5-dev \
-            libtinfo5 \
+            libncurses-dev \
+            libtinfo6 \
             cmake \
-            libgmp-dev \
-            libmpc-dev \
-            libmpfr-dev \
-            libsqlite3-dev \
-            sqlite3 \
-            bzip2 \
-            libbz2-dev \
-            libreadline-dev \
-            libgdbm-dev \
-            libgdbm-compat-dev \
-            liblzma-dev \
-            uuid-dev
+            automake \
+            autopoint \
+            gettext
 
       - name: Install Python dependencies
         run: |
